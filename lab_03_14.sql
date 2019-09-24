@@ -1,0 +1,11 @@
+/*
+Name: Eduaro Garcia
+Course: DAD 334
+Date: 3-14-2019
+Project: 3-1 Activity
+*/
+
+SELECT LAST_NAME, JOB_ID, SALARY
+FROM EMPLOYEES
+WHERE (JOB_ID = 'SA_REP' OR JOB_ID = 'ST_CLERK') AND 
+SALARY NOT IN (2500, 3500, 7000);
